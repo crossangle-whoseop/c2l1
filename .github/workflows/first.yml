@@ -33,5 +33,5 @@ jobs:
 
       - name: Step two
         run: echo "hello world"
-    needs: [first job, second job]
+    needs: [job1, job2]
 
